@@ -9,6 +9,7 @@ terraform {
 
 provider "aws" {
   # Configuration options
+  region = "eu-west-2"
 }
 
 module "s3-bucket_example_complete" {
