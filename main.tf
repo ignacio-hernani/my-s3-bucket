@@ -13,6 +13,6 @@ provider "aws" {
 }
 
 module "s3-bucket_example_complete" {
-  source  = "terraform-aws-modules/terraform-aws-s3-bucket/examples/complete"
-  version = "4.6.0"
+  source  = "app.terraform.io/ignacio-org/s3-bucket/aws/examples/complete"
+  version = "4.1.2"
 }
